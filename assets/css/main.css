@@ -1,0 +1,73 @@
+/* importing font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+body{
+	font-family: 'Edu AU VIC WA NT Guides',cursive;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+header {
+margin-top: 50px;
+}
+
+.site-title {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 1.5rem;
+	/*font-weight: bold;*/
+	letter-spacing: 0.05rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-left: -29px;
+}
+
+header nav ul li {
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+header nav ul li:nth-child(1) {
+	margin-left: 0;
+}
+
+header nav ul li a {
+	color: rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+}
+
+header nav ul li a:visited {
+	color: red;
+}
+
+header nav ul li a:hover {
+	color: navy;
+}
+
+main {
+	display: inline-block;
+	float: left;
+	width: 70%;
+}
+
+aside {
+	display: inline-block;
+	float: right;
+	margin-top: 52px;
+	width: 25%;
+}
+
+footer{
+	display: inline-block;
+	width: 100%;
+}
